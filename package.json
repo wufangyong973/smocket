@@ -62,7 +62,7 @@
   },
   "packageManager": "pnpm@11.22.0",
   "scripts": {
-    "build": "tsup",
+    "build": "node api.js && tsup",
     "docs:dev": "pnpm --filter @smocket/docs start",
     "docs:build": "pnpm --filter @smocket/docs build",
     "docs:serve": "pnpm --filter @smocket/docs serve",

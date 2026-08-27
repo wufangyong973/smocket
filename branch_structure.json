@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "chore/refresh-vulnerable-toolchain-lock",
+    "docs/chromium-install-note",
+    "docs/contributor-command-descriptions",
+    "docs/sidebar-release-completion",
+    "fix/drawing-game-socket-io-versions",
+    "fix/single-shot-once",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "chore/refresh-vulnerable-toolchain-lock": "main",
+    "docs/chromium-install-note": "main",
+    "docs/contributor-command-descriptions": "main",
+    "docs/sidebar-release-completion": "main",
+    "fix/drawing-game-socket-io-versions": "main",
+    "fix/single-shot-once": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "chore/refresh-vulnerable-toolchain-lock",
+    "docs/chromium-install-note",
+    "docs/contributor-command-descriptions",
+    "docs/sidebar-release-completion",
+    "fix/drawing-game-socket-io-versions",
+    "fix/single-shot-once",
+    "origin"
+  ]
+}
